@@ -18,6 +18,14 @@ public class Card {
     /**
      * @return the suit
      */
+    public Card(){
+        
+    } 
+    public Card(String suit1, int value1){
+        this.suit = suit1;
+        this.value = value1;
+}
+
     public String getSuit() {
         return suit;
     }
